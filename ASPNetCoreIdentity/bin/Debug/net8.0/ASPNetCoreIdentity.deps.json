@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "ASPNetCoreIdentity/1.0.0": {
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": "8.0.1",
           "Microsoft.AspNetCore.Authentication.Twitter": "8.0.1",
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "8.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.0",
@@ -58,6 +59,14 @@
           "lib/net6.0/Humanizer.dll": {
             "assemblyVersion": "2.14.0.0",
             "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Facebook/8.0.1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "8.0.1.0",
+            "fileVersion": "8.0.123.58008"
           }
         }
       },
@@ -953,6 +962,13 @@
       "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
       "path": "humanizer.core/2.14.1",
       "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7kiGRUPTCXJDGGhgH324TPDKH7/63BmVCuPRL5pGI9aAjKJpjS2rFeUcZHq75Abj0EjoNrrTqmWkEZWMZAVHjg==",
+      "path": "microsoft.aspnetcore.authentication.facebook/8.0.1",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.8.0.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Twitter/8.0.1": {
       "type": "package",

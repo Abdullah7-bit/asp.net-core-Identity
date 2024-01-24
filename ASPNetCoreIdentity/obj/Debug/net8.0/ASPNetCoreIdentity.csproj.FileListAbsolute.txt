@@ -139,3 +139,5 @@ C:\Users\MYSQ\source\repos\ASPNetCoreIdentity\ASPNetCoreIdentity\obj\Debug\net8.
 C:\Users\MYSQ\source\repos\ASPNetCoreIdentity\ASPNetCoreIdentity\obj\Debug\net8.0\ASPNetCoreIdentity.genruntimeconfig.cache
 C:\Users\MYSQ\source\repos\ASPNetCoreIdentity\ASPNetCoreIdentity\obj\Debug\net8.0\ref\ASPNetCoreIdentity.dll
 C:\Users\MYSQ\source\repos\ASPNetCoreIdentity\ASPNetCoreIdentity\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Twitter.dll
+C:\Users\MYSQ\source\repos\ASPNetCoreIdentity\ASPNetCoreIdentity\obj\Debug\net8.0\ASPNetCoreIdentity.sourcelink.json
+C:\Users\MYSQ\source\repos\ASPNetCoreIdentity\ASPNetCoreIdentity\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.Facebook.dll

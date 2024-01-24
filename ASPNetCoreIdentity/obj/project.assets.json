@@ -59,6 +59,22 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Authentication.Facebook/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "related": ".xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Authentication.Twitter/8.0.1": {
         "type": "package",
         "compile": {
@@ -1720,6 +1736,21 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/8.0.1": {
+      "sha512": "7kiGRUPTCXJDGGhgH324TPDKH7/63BmVCuPRL5pGI9aAjKJpjS2rFeUcZHq75Abj0EjoNrrTqmWkEZWMZAVHjg==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/net8.0/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.8.0.1.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Twitter/8.0.1": {
@@ -4485,6 +4516,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "Microsoft.AspNetCore.Authentication.Facebook >= 8.0.1",
       "Microsoft.AspNetCore.Authentication.Twitter >= 8.0.1",
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 8.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.0",
@@ -4532,6 +4564,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          },
           "Microsoft.AspNetCore.Authentication.Twitter": {
             "target": "Package",
             "version": "[8.0.1, )"
