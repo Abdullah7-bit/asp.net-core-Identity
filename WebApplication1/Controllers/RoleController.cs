@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace WebApplication1.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    
     public class RoleController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
@@ -13,6 +13,8 @@ namespace WebApplication1.Controllers
         {
             _roleManager = roleManager;
         }
+
+        [Authorize(Roles = "Admin,Sales")]
         public IActionResult Index()
         {
             var roles = _roleManager.Roles;
@@ -20,6 +22,7 @@ namespace WebApplication1.Controllers
             return View(roles);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpGet]
         public IActionResult Create()
         {
@@ -36,5 +39,7 @@ namespace WebApplication1.Controllers
             }
             return RedirectToAction("Index");
         }
+
+        
     }
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z32o5c33zVi1V/VLKXGe4Ul2JNyPXJij1fl8hX6Y+EGL3aiRcPBD6tGB19r+KooE9xX4ShE9qnvx14d6dHl2kg==",
+  "dgSpecHash": "g0luzCwgHb3/uxaEz5EChR2pOLBxb9PX0J2mha62Aq5ncoT2VaTUm3NjZAAfRzO0GhNSCOQk6KY/6RF1Q6euZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MYSQ\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "projectFilePath": "C:\\Users\\MYSQ\\source\\repos\\ASPNetCoreIdentity\\WebApplication1\\WebApplication1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MYSQ\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\MYSQ\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
